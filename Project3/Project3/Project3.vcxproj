@@ -132,9 +132,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Project3.cpp" />
+    <ClCompile Include="PurchaseTrackingApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\x64\Release\PythonFunctions.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project3.h" />
+    <ClInclude Include="PurchaseTrackingApp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
